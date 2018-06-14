@@ -1,0 +1,10 @@
+# Folders
+/target
+/.settings
+
+# Files
+*.out
+*.log
+*.log.*
+.classpath
+.project

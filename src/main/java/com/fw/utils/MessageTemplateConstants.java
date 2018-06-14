@@ -1,0 +1,38 @@
+package com.fw.utils;
+
+public class MessageTemplateConstants {
+
+	public static final String NOTFOUND= "NOTFOUND";
+	
+	public static final String OTP_SMS ="OTP SMS";
+	public static final String PASSWORD_SMS = "PASSWORD_SMS";
+	public static final String NEW_PASSWORD_SMS = "NEW_PASSWORD_SMS";
+	
+	public static final String TO_LOAD_PROVIDER_ABOUT_THE_LATEST_BID = "TO LOAD PROVIDER ABOUT THE LATEST BID";
+	public static final String TO_LOAD_PROVIDER_WHEN_LOAD_REQUEST_GOES_ON_HOLD = "TO LOAD PROVIDER WHEN LOAD REQUEST GOES ON HOLD";
+	public static final String TO_LP_and_CPs_AFTER_REQUEST_BLOCK = "TO LP and CPs AFTER REQUEST BLOCK";
+	public static final String TO_CAPACITY_PROVIDER_AFTER_REQUEST_IS_EDIT= "TO CAPACITY PROVIDER AFTER REQUEST IS EDIT";
+	
+	public static final String TO_LOAD_PROVIDER_AFTER_REQUEST_IS_AWARDED = "TO LOAD PROVIDER AFTER REQUEST IS AWARDED";
+	public static final String TO_CAPACITY_PROVIDER_AFTER_REQUEST_IS_AWARDED = "TO CAPACITY PROVIDER AFTER REQUEST IS AWARDED";
+	public static final String TO_ALL_CAPACITY_PROVIDERS_AFTER_LOAD_REQUEST_CANCLLED = "TO ALL CAPACITY PROVIDERS AFTER LOAD REQUEST CANCLLED";
+	public static final String TO_LOAD_PROVIDER_AFTER_LOAD_REQUEST_CANCLLED = "TO LOAD PROVIDER AFTER LOAD REQUEST CANCLLED";
+	public static final String TO_LP_and_CP_AFTER_LOAD_DELIVERED = "TO LP and CP AFTER LOAD DELIVERED";
+	public static final String TO_LOAD_PROVIDER_AFTER_REQUEST_IS_RESUME = "TO LOAD PROVIDER AFTER REQUEST IS RESUME";
+	public static final String TO_LOAD_PROVIDER_AFTER_REQUEST_IS_BOOKED = "TO LOAD PROVIDER AFTER REQUEST IS BOOKED";
+	public static final String TO_AWARDED_CAPACITY_PROVIDER_AFTER_REQUEST_IS_BOOKED = "TO AWARDED CAPACITY PROVIDER AFTER REQUEST IS BOOKED";
+	public static final String TO_OTHER_CAPACITY_PROVIDERS_AFTER_REQUEST_IS_BOOKED = "TO OTHER CAPACITY PROVIDERS AFTER REQUEST IS BOOKED";
+	public static final String CAPACITY_PROVIDERS_AFTER_LOAD_REQUEST_COMES = "CAPACITY PROVIDERS AFTER LOAD REQUEST COMES";
+	
+	public static final String MESSAGE_PLACEHOLDER_LOAD_REQUEST_ID = "#LoadRequestId#";
+	public static final String MESSAGE_PLACEHOLDER_FROM_CITY = "#FromCity#";
+	public static final String MESSAGE_PLACEHOLDER_TO_CITY = "#ToCity#";
+	public static final String MESSAGE_PLACEHOLDER_WEIGHT = "#Weight#";
+	public static final String MESSAGE_PLACEHOLDER_TYPE = "#Type#";
+	public static final String MESSAGE_PLACEHOLDER_CONTACT_NUMBER = "#ContactNumber#";
+	
+	public static final String passwordReplacer = "#PWD#";
+	public static final String mobileNumberReplacer = "#MOBILE#";
+
+	
+}
